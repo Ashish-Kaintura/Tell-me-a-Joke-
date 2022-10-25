@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/830202679718976252/2C40E52A57C7A7858BCEDC28593E3BE721339ED6/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    object-fit:cover;
+    
+}.h1{
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    align-items: center;
+    font-family: 'Hind Madurai', sans-serif;
+}
+marquee{
+    font-size: 30px;
+    font-weight: 800;
+    color:rgb(111, 105, 105);
+    font-family: sans-serif;
+    font-family: 'Cardo', serif;
+    background-color: azure;
+
+    }
+
+.div1{
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+    margin-top: 8em;
+    padding-top: 15vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin-left:10em ;
+    margin-right: 10em;
+    height: 30vh;
+    font-size: 25px;
+    border-radius: 30px;
+    font-family: 'Pacifico', cursive;
+    box-shadow: 0px 10px 8px 10px #888888;
+}
+.div3{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.btn1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 19px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border-color:aquamarine;
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgb(56, 56, 243);
+}
+.btn1:hover{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 19px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border-color:aquamarine;
+    color:  rgb(56, 56, 243);
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+/* for mobile */
+@media only screen and (max-width: 844px) {
+    body {
+      /* background-color: lightblue;   */
+    }
+    .div1{
+        background-color: whitesmoke;
+        align-items: center;
+        text-align: center;
+        margin-top: 5em;
+        padding-top: 15vh;
+        overflow: hidden;
+        flex-wrap: wrap;
+        height: fit-content;
+        margin-left:2em ;
+        margin-right: 2em;
+        height: 30vh;
+        font-size: 25px;
+        border-radius: 30px;
+        font-family: 'Pacifico', cursive;
+        box-shadow: 0px 10px 8px 10px #888888;
+    }
+}
